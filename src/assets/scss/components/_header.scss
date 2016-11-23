@@ -1,0 +1,55 @@
+.top-bar {
+    padding: 0rem;
+
+    ul {
+        background-color: #3284bf;
+    }
+    a {
+        color: white;
+    }
+    .logo-ucla {
+        display: inline;
+        width: 70px;
+    }
+    .logo-ccle {
+        color: #ffbc00;
+        font-size: 29px;
+        font-weight: bold;
+    }
+    .btn-login, .need-help {
+        background-color: #ffbc00;
+        color: black !important;
+    }
+
+    .logo-cc, .logo-le {
+        color: #c8dbf7;
+        font-size: 11px;
+        text-transform: capitalize;
+    }
+
+    .top-bar-left {
+        padding-left: 1.25rem;
+    }
+
+    .top-bar-left .menu > li > a {
+        padding: 0.2rem 0.2rem;
+    }
+
+    .top-bar-right {
+        padding-right: 1.0rem;
+    }
+
+    .top-bar-right .menu > li {
+        font-size: 14px;
+    }
+
+    .btn-login:focus {
+        background-color: #ff9d00;
+        border: 2px solid white;
+    }
+
+/*
+    .fa-question-circle:before{
+        content: :"%BF";
+    } */
+} 

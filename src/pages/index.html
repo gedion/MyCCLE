@@ -1,18 +1,171 @@
-<div class="row">
-  <div class="column medium-3" style="background-color: #f1f1f1; height: 1000px">
-      <h1>CCLE | <small>Common Collaboration & Learning Environment</small></h1>
-  </div>
-  <div class="column medium-3">
-      <h2> Browse By </h1>
-      <ul class="menu">
-          <li><a href="#">Subject area</a></li>
-          <li><a href="#">Division</a></li>
-          <li><a href="#">Instructor</a></li>
-          <li><a href="#">Collaboration sites</a></li>
-      </ul>
+<header class="row expanded">
+    <div class="title-bar" data-responsive-toggle="top-bar-menu" data-hide-for="medium">
+      <button class="menu-icon" type="button" data-toggle></button>
+      <div class="title-bar-title">Menu</div>
+    </div>
 
-  </div>
-  <div class="column medium-6">
-      <!-- empty on purpose -->
-  </div>
+    <div class="top-bar" id="top-bar-menu">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li> <a href="#">
+            <img class="logo-ucla" src="https://ccle.ucla.edu/theme/image.php/uclashared/theme/1478704637/ucla-logo" alt="UCLA CCLE Common Collaboration and Learning Environment">
+              </a>
+         </li>
+         <li><a class="logo-ccle" href="#">CCLE</a></li>
+         <li class="show-for-large" ><a href="#">
+                <div class="row logo-cc" >common collaboration</div>
+                <div class="row logo-le">& common collaboration</div>
+          </a></li>
+        </ul>
+       </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a class="need-help" href="#">Need Help <i class="fa-question-circle"></i></a></li>
+          <li class="show-for-large" ><a href="#">You are not logged in.</a></li>
+          <li><a class="btn-login" href="#">Log in</a></li>
+<!--          <li><a href="#">Fall 2016 - Week 9</a></li>-->
+        </ul>
+      </div>
+    </div>
+</header>
+
+<header class="row expanded">
+    <div class="column small-4">
+        <a class="header-system-name" href="#">Shared system</a>
+    </div>
+    <div class="column small-8 text-right">
+        <div class="weeks-display label-fall">
+                <span class="session">Fall 2016</span>-<span class="week">Week 9</span>
+        </div>            
+    </div>
+</header>
+
+<nav aria-label="You are here:" role="navigation">
+  <ul class="breadcrumbs">
+    <li><a href="#">Home</a></li>
+    <li>
+      <span class="show-for-sr">Current: </span> Subject areas
+    </li>
+  </ul>
+</nav>
+<div class="row expanded">
+  <section class="column large-8 medium-8 medium-push-3">
+       <article class="row">
+           <h1 class="subheader"> Subject areas </h1>
+            <ul class="dropdown menu" data-dropdown-menu>
+              <li>
+                <a href="#">Term</a>
+                 <ul class="menu">
+                      <li><a href="#">Sping 2017</a></li>
+                      <li><a href="#">Winter 2017</a></li>
+                      <li><a href="#">Fall 2016</a></li>
+                      <li><a href="#">Summer 2016</a></li>
+                      <li><a href="#">Spring 2016</a></li>
+                 </ul>
+               </li>
+            </ul>
+            <div class="row">
+                <div class="column medium-6">
+                    <ul class="no-bullet">
+                        <li><a href="#">African American Studies</a></li>
+                        <li><a href="#">African Studies</a></li>
+                        <li><a href="#">American Sign Language</a></li>
+                        <li><a href="#">Ancient Near East</a></li>
+                        <li><a href="#">Anthropology</a></li>
+                        <li><a href="#">Applied Linguistics</a></li>
+                        <li><a href="#">Arabic</a></li>
+                        <li><a href="#">Architecture And Urban Design</a></li>
+                        <li><a href="#">Armenian</a></li>
+                        <li><a href="#">Art</a></li>
+                        <li><a href="#">Art History</a></li>
+                        <li><a href="#">Arts And Architecture</a></li>
+                        <li><a href="#">Arts Education</a></li>
+                        <li><a href="#">Asian</a></li>
+                        <li><a href="#">Astronomy</a></li>
+                    <ul>
+                </div>
+                <div class="column medium-6">
+                    <ul class="no-bullet">
+                        <li><a href="#">Indonesian</a></li>
+                        <li><a href="#">Information Studies</a></li>
+                        <li><a href="#">International And Area Studies</a></li>
+                        <li><a href="#">International Development Studies</a></li>
+                        <li><a href="#">Iranian</a></li>
+                        <li><a href="#">Islamic Studies</a></li>
+                        <li><a href="#">Italian</a></li>
+                        <li><a href="#">Japanese</a></li>
+                        <li><a href="#">Jewish Studies</a></li>
+                        <li><a href="#">Korean</a></li>
+                        <li><a href="#">Latin</a></li>
+                        <li><a href="#">Latin American Studies</a></li>
+                        <li><a href="#">Law</a></li>
+                        <li><a href="#">Lesbian, Gay, Bisexual, Transgender, And Queer Studies</a></li>
+                        <li><a href="#">Life Sciences</a></li>
+
+                    <ul>
+                </div>
+            </div>
+       </article>
+  </section>
+
+  <aside class="column large-2 medium-4 medium-pull-8">
+    <div class="block">
+      <h6> Browse By </h6>
+      <ul class="menu">
+          <div class="active" ><a href="#">Subject area</a></div>
+          <div><a href="#">Division</a></div>
+          <div><a href="#">Instructor</a></div>
+          <div><a href="#">Collaboration sites</a></div>
+      </ul>
+    </div>
+
+    <div class="block">
+      <h6> Search sites</h6>
+      <ul class="menu">
+          <div><input type="checkbox"/> Collab</div>
+          <div><input type="checkbox"/> Course</div>
+      </ul>
+    </div>
+
+    <div class="block">
+      <h6> Filter by</h6>
+      <ul class="menu">
+          <div><input type="checkbox"/> Title </div>
+          <div><input type="checkbox"/> Discription</div>
+          <div><input placeholder="Search..." type="text"></div>
+      </ul>
+    </div>
+
+  </aside>
+  <aside class="column large-1 medium-0 medium-pull-0 ">
+    <div class="block">
+      <h6> CCLE Systems & Notices</h6>
+      <ul class="menu">
+          <div><a href="#">* Turnitin: Allow Submissions after the Due Date</a></div>
+          <div><a href="#">Interested in working for CCLE? </a></div>
+          <div><a href="#">Counseling and Psychological Services (CAPS) offers services </a></div>
+          <div><a href="#">Center for Accessible Education (CAE)</a></div>
+
+      </ul>
+    </div>
+  </aside>
 </div>
+
+<footer class="row expanded ">
+        <div class="medium-3 text-left column"> &copy; 2016 UC Regents </div>
+        <div class="medium-9 column text-right">
+            <div class="row">
+                <a class="column small-1" href="https://ccle.ucla.edu/course/view/aboutccle?sectionid=926">Contact</a>
+                <a class="column small-1" href="https://ccle.ucla.edu/course/view/aboutccle?section=0">About</a>
+                <a class="column small-1" href="https://ccle.ucla.edu/theme/uclashared/view.php?page=privacy">Privacy</a>
+                <a class="column small-1" href="https://ccle.ucla.edu/theme/uclashared/view.php?page=copyright">Copyright</a>
+                <a class="column small-1" href="https://ccle.ucla.edu/course/view/aboutccle?sectionid=6996">UCLA links</a>
+                <span class="column small-1" > | </span>
+                <a class="column small-1" href="http://www.ucla.edu/" target="_blank">UCLA</a>
+                <a class="column small-1" href="http://www.registrar.ucla.edu/" target="_blank">Registrar</a>
+                <a class="column small-1" href="http://my.ucla.edu/" target="_blank">MyUCLA</a>
+                <a class="column small-1" href="http://www.cae.ucla.edu/" target="_blank">Disability</a>
+                <a class="column small-1" href="http://www.counseling.ucla.edu/" target="_blank">Couns/PsychSvc (CAPS)</a>
+            </div>
+        </div>
+</footer>
