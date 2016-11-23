@@ -1,0 +1,14 @@
+section article {
+    .no-bullet li:nth-child(2n) {
+        background-color: #f9f9f9;
+    }
+    .no-bullet li {
+        border-top: 1px solid #eee;
+        margin: 0 10px;
+        padding: 5px;
+    }
+    .no-bullet li a {
+        color: #536895;
+    }
+}
+

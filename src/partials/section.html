@@ -1,0 +1,78 @@
+<section class="column large-8 medium-8 medium-push-3">
+
+       <article>
+            <div class="orbit" role="region" aria-label="CCLE Systems" data-orbit>
+              <ul class="orbit-container">
+                <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
+                <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
+                <li class="is-active orbit-slide">
+                  <div>
+                    <img class="orbit-image thumbnail" src="https://ccle.ucla.edu/theme/uclashared/frontpageimage.php" alt="Space">
+                    <h3 class="text-center">Tips and Updates</h3>
+                    <div class="text-center"><a href="" class="text-center">* Turnitin: Allow Submissions after the Due Date</a></div>                
+                  </div>
+                </li>
+                <li class="orbit-slide">
+                  <div>
+                    <h3 class="text-center">Interested in working for CCLE?</h3>
+                    <p class="text-center">We are looking for a full-time developer with design skills to help us develop innovated user experiences across the system from instructors designing and creating their course, to students interacting with their learning materials, and to staff supporting the system.</p>
+                    <div class="text-center"><a href="" class="text-center">Learn more and apply</a></div>
+                  </div>
+                </li>
+                <li class="orbit-slide">
+                  <div>
+                    <h3 class="text-center">Couns/PsychSvc(CAPS)</h3>
+                    <p class="text-center">Counseling and Psychological Services (CAPS) offers services designed to foster the development of healthy well-being necessary for success in a complex global environment.</p>
+                    <a href=""class="text-center">www.counseling.ucla.edu </a>
+                     <div class="text-center"> TDD 310-825-0768 </div>
+                  </div>
+                </li>
+                <li class="orbit-slide">
+                  <div>
+                    <h3 class="text-center">Center for Accessible Education (CAE)</h3>
+                    <p class="text-center">The University provides services to students with disabilities and should any student require disability-related accommodations, they should contact the Center for Accessible Education at:</p>
+                    <div class="text-center"><a href="" >www.cae.ucla.edu</a></div>
+                    <div class="text-center"> TDD 310-206-6083 </div>
+                  </div>
+                </li>
+              </ul>
+              <nav class="orbit-bullets">
+               <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+               <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+               <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+               <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+             </nav>
+            </div>
+
+       </article>
+
+       <article class="row">
+           <h1 class="subheader"> Subject areas </h1>
+            <ul class="dropdown menu" data-dropdown-menu>
+              <li>
+                <a href="#">Term</a>
+                 <ul class="menu">
+                      {{#each terms}}
+                        <li><a href="#">{{ this }}</li>
+                      {{/each}}
+                 </ul>
+               </li>
+            </ul>
+            <div class="row">
+                <div class="column medium-6">
+                    <ul class="no-bullet">                        
+                      {{#each subjectareas}}
+                        <li><a href="#">{{ this }}</li>
+                      {{/each}}
+                    <ul>
+                </div>
+                <div class="column medium-6">
+                    <ul class="no-bullet">
+                       {{#each subjectareas2}}
+                             <li><a href="#">{{ this }}</li>
+                       {{/each}}
+                    <ul>
+                </div>
+            </div>
+       </article>
+  </section>

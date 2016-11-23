@@ -1,0 +1,35 @@
+aside {
+  h6 {
+    background-color: #eee;
+    border-bottom: 2px solid #eaeaea;
+    padding: 8px;
+    margin-bottom: 0px;
+  }
+
+  .menu div {
+    background-color: #f9f9f9;
+    font-size: 1.4rem;
+    margin: 0;
+    padding: 8px;
+    font-size: 14px;
+    border-color: #eee #f9f9f9;
+    border-style: none none solid solid;
+    cursor: pointer;
+  }
+
+  .block {
+    margin-bottom: 20px;
+    max-width: 180px;
+   }
+  
+  .menu div:hover {
+    border-color: #3284bf;
+    border-style: none none none solid;
+    border-width: 0 0 0px 4px;
+  }
+
+  .menu .active {
+    background: #2199e8;
+    color: white;
+  }
+}

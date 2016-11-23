@@ -49,4 +49,8 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
+@import 'components/aside';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/section';
 @import 'components/topbar';
