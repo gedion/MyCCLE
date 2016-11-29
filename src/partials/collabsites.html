@@ -1,0 +1,19 @@
+<article class="row" id="collabsites" data-magellan-target="collabsites">
+    <h1 class="subheader"> Collaboration Sites</h1>
+    <div class="row">
+        <div class="column medium-6">
+            <ul class="no-bullet">
+              {{#each collabs.one}}
+                <li><a href="#">{{ this }}</a></li>
+              {{/each}}
+            <ul>
+        </div>
+        <div class="column medium-6">
+            <ul class="no-bullet">
+               {{#each collabs.two}}
+                <li><a href="#">{{ this }}</a></li>
+               {{/each}}
+            <ul>
+        </div>
+    </div>
+</article>

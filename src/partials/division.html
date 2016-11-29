@@ -1,0 +1,20 @@
+<article class="row" id="division" data-magellan-target="division">
+    <h1 class="subheader"> Divisions </h1>
+    {{> terms }}
+    <div class="row">
+        <div class="column medium-6">
+            <ul class="no-bullet">
+              {{#each divisions.one}}
+                <li><a href="#">{{ this }}</a></li>
+              {{/each}}
+            <ul>
+        </div>
+        <div class="column medium-6">
+            <ul class="no-bullet">
+               {{#each divisions.two}}
+                <li><a href="#">{{ this }}</a></li>
+               {{/each}}
+            <ul>
+        </div>
+    </div>
+</article>

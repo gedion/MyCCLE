@@ -1,0 +1,39 @@
+content: [
+    {
+        "index":0,
+        "navlabel": "First slide details",
+        "header":"Tips and Updates",
+        "link":"* Turnitin: Allow Submissions after the Due Date",
+        "img":"img/img1.png",
+        "summary":""
+    },
+    {
+        "index":1,
+        "navlabel": "Second slide details",
+        "header":"Interested in working for CCLE?",
+        "link":"Learn more and apply",
+        "img":"img/img2.png",
+        "summary":"We are looking for a full-time developer with design skills to help us develop innovated user experiences across the system from instructors designing and creating their course, to students interacting with their learning materials, and to staff supporting the system."
+    },
+    {
+        "index":2,
+        "navlabel": "Third slide details",
+        "header":"Couns/PsychSvc(CAPS)",
+        "link":"www.counseling.ucla.edu",
+        "img":"img/img3.png",
+        "summary":"Counseling and Psychological Services (CAPS) offers services designed to foster the development of healthy well-being necessary for success in a complex global environment."
+    },
+    {
+        "index":3,
+        "navlabel": "Fourth slide details",
+        "header":"Center for Accessible Education (CAE)",
+        "link":"www.cae.ucla.edu",
+        "img":"img/img4.png",
+        "summary":"The University provides services to students with disabilities and should any student require disability-related accommodations, they should contact the Center for Accessible Education at:"
+    }
+]
+
+
+
+
+

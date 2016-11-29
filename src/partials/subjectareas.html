@@ -1,0 +1,20 @@
+   <article class="row" id="subjectarea" data-magellan-target="subjectarea">
+   <h1 class="subheader"> Subject Areas </h1>
+    {{> terms }}
+    <div class="row">
+        <div class="column medium-6">
+            <ul class="no-bullet">
+              {{#each subjectareas}}
+                <li><a href="#">{{ this }}</a></li>
+              {{/each}}
+            <ul>
+        </div>
+        <div class="column medium-6">
+            <ul class="no-bullet">
+               {{#each subjectareas2}}
+                <li><a href="#">{{ this }}</a></li>
+               {{/each}}
+            <ul>
+        </div>
+    </div>
+   </article>

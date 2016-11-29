@@ -6,14 +6,14 @@ aside {
     margin-bottom: 0px;
   }
 
-  .menu div {
+  .menu li {
     background-color: #f9f9f9;
     font-size: 1.4rem;
-    margin: 0;
-    padding: 8px;
+    margin: 0;    
     font-size: 14px;
     border-color: #eee #f9f9f9;
     border-style: none none solid solid;
+    border-width: 0 0 1px 1px;
     cursor: pointer;
   }
 
@@ -29,7 +29,7 @@ aside {
   }
 
   .menu .active {
-    background: #2199e8;
+    background: #3785bd;
     color: white;
   }
 }

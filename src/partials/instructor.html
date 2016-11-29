@@ -1,0 +1,13 @@
+<article class="row" id="instructor" data-magellan-target="instructor">
+    <h1 class="subheader"> Instructors </h1>
+    {{> terms }}
+    <div class="row">
+        <div class="column medium-6">
+            <ul class="no-bullet instr">
+              {{#each instructors.alpha }}
+                <li><a href="#">{{ this }}</a></li>
+              {{/each}}
+            <ul>
+        </div>
+    </div>
+</article>
