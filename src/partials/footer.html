@@ -1,0 +1,23 @@
+<footer class="row expanded callout footer">
+    <div class="medium-4 text-left columns"> &copy; 2016 UC Regents </div>
+    <div class="medium-4 columns text-right">
+        <div class="row text-left">
+            <div class="columns large-4 medium-4 small-4">
+                <ul class="no-bullet">
+                    {{#each payload.content.footerlinks.left}}
+                    <li><a href="#">{{ this }}</a></li>
+                    {{/each}}
+                </ul>
+            </div>
+            <div class="columns large-4 medium-4 small-4 ">
+                <ul class="no-bullet">
+                    {{#each payload.content.footerlinks.right}}
+                    <li><a href="#">{{ this }}</a></li>
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="large-4 medium-4 small-4 columns">
+    </div>
+</footer>

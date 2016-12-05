@@ -1,0 +1,112 @@
+content : {
+  terms: {
+    current: 'Fall 2016 - Week 9'
+  },
+  browseby: ["Subject Areas", "Divisions", "Instructors", "Collaboration Sites"],
+  articles: [
+    {
+        header: "CCLE System Maintenance Tuesday, December 13 (12 AM - 8 AM)",
+        headersmall : "CCLE System Notice",
+        key: 'cclesystem',
+        callout : "alert",#options are: success, secondary, warning, alert
+        summary: 'CCLE will be unavailable due to system maintenance during these times: Tuesday, December 13, 2016 from 12 AM to 8 AM'
+
+    },
+    {
+        header: "Interested in working for CCLE?",
+        headersmall : "Work for CCLE",
+        key: 'workatccle',
+        summary: 'We are looking for a full-time developer with design skills to help us develop innovated user experiences across the system from instructors designing and creating their course, to students interacting with their learning materials, and to staff supporting the system.',
+        link: 'Learn more and apply'
+    },
+    {
+        header: "Couns/PsychSvc(CAPS)",
+        headersmall : "CAPS",
+        key: 'seekcaps',
+        summary: 'Counseling and Psychological Services (CAPS) offers services designed to foster the development of healthy well-being necessary for success in a complex global environment.',
+        link: 'www.counseling.ucla.edu',
+        phonenumber: 'tel:3108250768',
+        phonenumberlabel: '310-825-0768'
+    } ,
+    {
+        header: "Center for Accessible Education (CAE)",
+        headersmall : "CAE",
+        key: 'seekcae',
+        summary: 'The University provides services to students with disabilities and should any student require disability-related accommodations, they should contact the Center for Accessible Education at:',
+        link: 'www.cae.ucla.edu',
+        phonenumber: 'tel:3102066083',
+        phonenumberlabel: 'TDD 310-206-6083'
+    }
+  ],
+  footerlinks: {
+    left: [
+           'Contact',
+           'About',
+           'Privacy',
+           'Copyright',
+           'UCLALinks',
+         ],
+    right: [
+           'UCLA',
+           'Registrar',
+           'MyUCLA',
+           'Disability',
+           'Couns/PsychSvc(CAPS)'
+        ]
+  },
+  needhelpitems: [
+    'Submit a help request',
+    'View self help articles',
+    'Read tips & updates',
+    'Request a site'
+  ],
+  orbituclanews: [
+    {
+        "index":0,
+        "navlabel": "First slide details",
+        "header":"Tips and Updates",
+        "link":"* Turnitin: Allow Submissions after the Due Date",
+        "img_large":"img/img1_large.png",
+        "img_medium":"img/img1_medium.png",
+        "img_small":"img/img1_small.png",
+        "summary":""
+    },
+    {
+        "index":1,
+        "navlabel": "Second slide details",
+        "header":"Interested in working for CCLE?",
+        "link":"Learn more and apply",
+        "img_large":"img/img2_large.png",
+        "img_medium":"img/img2_medium.png",
+        "img_small":"img/img2_small.png",
+        "summary":"We are looking for a full-time developer with design skills to help us develop innovated user experiences across the system from instructors designing and creating their course, to students interacting with their learning materials, and to staff supporting the system."
+    },
+    {
+        "index":2,
+        "navlabel": "Third slide details",
+        "header":"Couns/PsychSvc(CAPS)",
+        "link":"www.counseling.ucla.edu",
+        "img_large":"img/img3_large.png",
+        "img_medium":"img/img3_medium.png",
+        "img_small":"img/img3_small.png",
+        "summary":"Counseling and Psychological Services (CAPS) offers services designed to foster the development of healthy well-being necessary for success in a complex global environment."
+    },
+    {
+        "index":3,
+        "navlabel": "Fourth slide details",
+        "header":"Center for Accessible Education (CAE)",
+        "link":"www.cae.ucla.edu",
+        "img_large":"img/img4_large.png",
+        "img_medium":"img/img4_medium.png",
+        "img_small":"img/img4_small.png",
+        "summary":"The University provides services to students with disabilities and should any student require disability-related accommodations, they should contact the Center for Accessible Education at:"
+    }
+]
+
+
+
+
+
+
+}
+

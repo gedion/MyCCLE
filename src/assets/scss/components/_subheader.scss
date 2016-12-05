@@ -1,0 +1,19 @@
+.sub-header {
+    background: #93d3eb url("http://www.ucla.edu/img/audience-nav-bg.jpg") repeat-y scroll center center;
+    padding: 0.2rem;
+
+    input {
+        margin: 0rem;
+        background: url(http://brand.ucla.edu/wp-content/themes/ucla-brand-portal/img/search-btn.gif) no-repeat scroll 7px 7px;
+        padding-left:50px;
+        background-color: white;
+    }
+
+    .search-input {
+        opacity: 1 !important;
+    }
+
+    .week {
+        white-space: nowrap;
+    }
+}

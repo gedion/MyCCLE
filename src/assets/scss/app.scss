@@ -48,5 +48,9 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
-
-@import 'components/topbar';
+@import 'components/body';
+@import 'components/footer';
+@import 'components/header';
+@import 'components/subheader';
+@import 'components/orbitnews';
+@import 'components/section';

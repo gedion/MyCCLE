@@ -1,0 +1,42 @@
+<div class="row expanded sub-header callout">
+    <div class="columns large-2 medium-3 small-0"> <a href="#">Shared system</a></div>
+    <div class="columns large-8 medium-6 small-12 search-input">
+        <div class="row">
+            <input data-toggle-focus="search-params" type="text" placeholder="Search collboration or course sites">
+        </div>
+        <div class="row callout " id="search-params" data-toggler data-animate="fade-in-from-top" style="display: none;" data-closable>
+            <button data-close class="close-button" aria-label="Close alert" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="row">
+                <div class="columns large-4">
+                    <h6 class="label" > Search Sites</h6>
+                    <ul class="vertical menu">
+                        <li><input type="checkbox" /> Collab</li>
+                        <li><input type="checkbox" /> Course</li>
+                    </ul>
+                </div>
+                <hr class="hide-for-large-only">
+                <div class="columns large-4">
+                    <h6 class="label" > Filter By</h6>
+                    <ul class="vertical menu">
+                        <li><input type="checkbox" /> Title </li>
+                        <li><input type="checkbox" /> Description</li>
+                    </ul>
+                </div>
+                <hr class="hide-for-large-only">
+                <div class="column large-4">
+                    <div class="block">
+                        <h6 class="label"> Browse By </h6>
+                        <ul class="vertical menu" data-magellan active-class="active">
+                            {{#each payload.content.browseby}}
+                                <li><a href="#{{ this.key }}"> {{ this }}</a></li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="columns large-2 medium-3 small-0 week large-text-right">{{payload.content.terms.current}}</div>
+</div>

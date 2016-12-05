@@ -1,0 +1,21 @@
+<div class="row content">
+	<section class="columns large-10 medium-10 medium-centered ">
+		{{#each payload.content.articles}}
+			<hr>
+			<article class="row {{ this.callout }}">
+			    <h4 class="{{ this.callout }} "> {{ this.header }}</h4>
+			    <div class="row">
+		        	 	<div class="columns medium-12">
+		            	<p class="text-center">{{ this.summary }} </p>
+		            	{{#if this.link}}
+		                    <div class="text-center"><a href="">{{ this.link }}</a></div>
+		                {{/if}}
+	                    {{#if this.phonenumber}}
+		                   <div class="text-center"> <a href="tel:+{{ this.phonenumber }}">{{ this.phonenumberlabel }}</a></div>
+		                {{/if}}
+			     	</div>
+			    </div>
+			</article>
+		{{/each}}
+	</section>
+</div>

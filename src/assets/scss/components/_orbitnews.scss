@@ -1,0 +1,30 @@
+.orbit {
+
+	.orbit-container {
+
+		height: 100% !important;
+
+		li img {
+			 display: block;
+			 max-width: 100%;
+			 margin: 0 auto;
+		}
+	}
+
+	.orbit-bullets button.is-active {
+	    background-position: 0 -91px;
+	    background-color: inherit;
+	}
+
+	.orbit-bullets button {
+	   background: rgba(0, 0, 0, 0) url("http://brand.ucla.edu/wp-content/themes/ucla-brand-portal/img/sprites.png") no-repeat scroll 0 -65px;
+	    cursor: pointer;
+	    height: 13px;
+	    text-indent: -999em;
+	    width: 13px;
+	}
+
+    .thumbnail {
+        border-color: #ffbc00;
+    }
+}

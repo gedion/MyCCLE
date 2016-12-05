@@ -1,0 +1,41 @@
+section {
+    background-color : white;
+    opacity: 0.80;
+
+    article {
+        h4.success {
+            background-color: #dcf3d8;
+            border-bottom: 4px solid #88b851;
+        }
+
+        h4.alert {
+            background-color: #d64f33;
+            border-bottom: 4px solid #d64f33;
+            color: white;
+        }
+
+        h4.secondary {
+            background-color: #d8f2f2;
+            border-bottom: 4px solid #389998;
+        }
+
+        h4.warning {
+            background-color: #f8f7dd;
+            border-bottom: 4px solid #edb83d;
+        }
+    }
+
+    article.success {
+        background-color: #dcf3d8;
+    }
+    article.secondary {
+        background-color: #d8f2f2;
+    }
+    article.warning {
+        background-color: #f8f7dd;
+    }
+    article.alert {
+        background-color: #fce6e2;
+    }
+
+}
